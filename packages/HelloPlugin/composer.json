@@ -1,0 +1,11 @@
+{
+    "name": "your-namespace/hello-plugin",
+    "description": "A simple Laravel plugin example",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "HelloPlugin\\": "src/"
+        }
+    },
+    "require": {}
+}
